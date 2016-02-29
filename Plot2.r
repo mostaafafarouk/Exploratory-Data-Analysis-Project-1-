@@ -1,6 +1,6 @@
 
 if (!"load_data.R" %in% list.files()) {
-    setwd("E:/Data Science Specialization/Exploratory-Data-Analysis")
+    setwd("~/Data Science Specialization/Exploratory-Data-Analysis")
 } 
 source("load_data.R")
 png(filename = "plot2.png", 
